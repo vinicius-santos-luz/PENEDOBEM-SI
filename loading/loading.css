@@ -1,0 +1,21 @@
+body{
+    width: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+.loading{
+    width: 60px;
+    height: 60px;
+    display: block;
+    animation: carregar 2s ease  infinite;
+}
+@keyframes carregar{
+    100%{
+        transform: rotate(360deg);
+    }
+}
